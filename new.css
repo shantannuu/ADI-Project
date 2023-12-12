@@ -1,0 +1,211 @@
+/* Basic styles to reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+  }
+
+  .flex-container {
+    display: flex;
+    width: 100%;
+    /* height: 100vh; */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    /* width: 100%; */
+    /* height: 100vh; */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    font-size: 90px;
+    margin-bottom: 20px;
+    font-family: Spectral;
+    font-weight: 300;
+    line-height: 97.20px;
+    letter-spacing: 1.17px; 
+    word-wrap: break-word
+  }
+
+.flex-child {
+    flex: 1;
+    
+    /* border: 2px solid yellow; */
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .input-container {
+    width: 100%;
+    margin-bottom: 20px;
+    width: 605px; 
+    height: 72px; 
+    background: white; 
+    /* border: 1px #94A090 solid */
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+  }
+  
+  .message-box {
+    width: 100%;
+    height: 100% ;
+  }
+  
+  .message-box textarea {
+    width: calc(100% - 10px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+    resize: vertical;
+    margin-bottom: 20px;
+    width: 270px; 
+    height: 160px; 
+    background: white; 
+    /* border: 1px #94A090 solid */
+  }
+  
+  .message-box button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #708D62;
+    color: white;
+    border: none;
+    border-radius: 0%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .message-box button:hover {
+    background-color: #0056b3;
+  }
+  .findus
+  {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    width: 484px; 
+    height: 59px; 
+    color: #94A090; 
+    font-size: 40px; font-family: Poppins; 
+    font-weight: 700; 
+    word-wrap: break-word
+  }
+  .query{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-bottom: 100px;
+    display: flex;
+    width: 462px; 
+    height: 27px; 
+    text-align: center; 
+    color: #717171; 
+    font-size: 15px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    word-wrap: break-word
+  }
+
+/* Container for contact information */
+.contact-info {
+    display: flex;
+    width: 100%;
+    /* height: 100vh; */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 826px;
+    height: 121px;
+    position: relative;
+  }
+  
+  /* Shared styles for contact information */
+  .contact-info > div {
+    /* padding: 20px; */
+    margin-left: 50px;
+    position: relative;
+    color: #606362;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+  }
+  
+  /* Phone number styles */
+  .phone-number {
+    position: relative;
+    width: 125px;
+    height: 24px;
+    top: 0;
+    left: 0;
+  }
+  
+  /* Email styles */
+  .email {
+    
+    width: 150px;
+    height: 23px;
+    top: 0;
+    left: 259px;
+  }
+  
+  /* Address styles */
+  .address {
+    width: 288px;
+    height: 96px;
+    top: 0;
+    left: 538px;
+    line-height: 1.4; /* Improved line height for address */
+  }
+  
+  /* Additional phone number and email styles */
+  .phone-number.second {
+    top: 96px;
+    left: 0;
+  }
+  
+  .email.second {
+    top: 96px;
+    left: 259px; /* Adjusted left position for the second email */
+  }
+  .follow-us{
+    display: flex;
+    width: 100%;
+    /* height: 100vh; */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    /* padding-top: 500px; */
+    padding: 20px;
+    padding-top: 50px;
+    /* display: flex; */
+    width: 145px; 
+    height: 34px; 
+    text-align: center; 
+    color: #717171; 
+    font-size: 18px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    word-wrap: break-word
+  }
+  
